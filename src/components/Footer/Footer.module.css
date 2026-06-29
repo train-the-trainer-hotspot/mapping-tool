@@ -1,0 +1,60 @@
+
+  
+  .footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%
+  }
+  
+  .footerText {
+      margin-bottom: 8px !important;
+      margin-left: 8px!important;
+      margin-right: 8px !important;
+  }
+  
+  .horizontalDivider {
+  
+      border: 0;
+      clear:both;
+      display:block;
+      width: 90%;               
+      background-color: lightgray;
+      height: 1px;
+  
+  }
+  
+  .footerLogo {
+    width: 120px;
+    margin: 8px
+  }
+  
+  .footerLinkContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+
+
+    .footerLogo {
+        width: 80px;
+        margin: 8px
+      }
+  
+
+  }
+  
